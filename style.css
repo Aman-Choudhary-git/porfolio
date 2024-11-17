@@ -1,67 +1,48 @@
 /* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
-  background: #f9f9f9;
   line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
 }
 
-/* Header */
 header {
   background: #333;
   color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-header .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-header .nav-links a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Hero Section */
-#hero {
+  padding: 2rem 1rem;
   text-align: center;
-  padding: 5rem 2rem;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+header nav a {
   color: white;
-}
-
-#hero h1 span {
-  color: #ffb703;
-}
-
-#hero .btn {
-  display: inline-block;
-  padding: 0.8rem 1.5rem;
-  margin-top: 1rem;
-  background: white;
-  color: #2575fc;
+  margin: 0 0.5rem;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
 }
 
-/* Section Styles */
+header nav a:hover {
+  text-decoration: underline;
+}
+
 section {
-  padding: 2rem 2rem;
+  margin: 2rem auto;
   max-width: 800px;
-  margin: 0 auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -69,30 +50,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Projects */
-.project {
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.portfolio-item {
+  margin: 1rem 0;
 }
 
-.project h3 {
-  margin-top: 0;
-}
-
-.project .btn {
-  display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: #2575fc;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
